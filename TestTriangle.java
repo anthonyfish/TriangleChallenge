@@ -106,9 +106,9 @@ public class TestTriangle {
    @Test
    public void testValidateWithBigSides() {
       //test data
-      BigDecimal side1 = new BigDecimal("1.99769313486231576E+309 ");
-      BigDecimal side2 = new BigDecimal("0.79769313486231574E+309 ");
-      BigDecimal side3 = new BigDecimal("1.39769313486231579E+309 ");
+      BigDecimal side1 = new BigDecimal("1.99769313486231576E+309");
+      BigDecimal side2 = new BigDecimal("0.79769313486231574E+309");
+      BigDecimal side3 = new BigDecimal("1.39769313486231579E+309");
 
       Triangle tri1 = new Triangle(side1, side1, side1);
       assertTrue(tri1.Validate());
