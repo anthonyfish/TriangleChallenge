@@ -1,4 +1,4 @@
-# TriangleChallenge
+# TriangleChallenge is here
 Enter 3 sides, and the program will tell whether it is an Equilateral, Isosceles, Scalene, or not an triangle.
 
 ## Compile and Run
